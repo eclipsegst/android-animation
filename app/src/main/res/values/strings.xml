@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Animation</string>
+    <string name="explode_activity">Explode</string>
+    <string name="slide_activity">Slide</string>
+    <string name="slide_detail_activity">Slide Details</string>
+    <string name="fade_activity">Fade</string>
+
+    <string name="animation_explode">Explode</string>
+    <string name="animation_slide">Slide</string>
+    <string name="animation_fade">Fade</string>
+
+    <string name="slide_right_to_left">Right to left</string>
+    <string name="slide_left_to_right">Left to right</string>
+    <string name="slide_top_to_bottom">Top to bottom</string>
+    <string name="slide_bottom_to_top">Bottom to top</string>
+</resources>
