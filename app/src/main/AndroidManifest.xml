@@ -21,6 +21,7 @@
         <activity android:name=".SlideActivity" />
         <activity android:name=".SlideDetailActivity"></activity>
         <activity android:name=".FadeActivity"></activity>
+        <activity android:name=".FragmentActivity"></activity>
     </application>
 
 </manifest>

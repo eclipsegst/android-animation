@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.main_activity_explode_text_view_id) TextView explodeTextView;
     @BindView(R.id.main_activity_slide_text_view_id) TextView slideTextView;
     @BindView(R.id.main_activity_fade_text_view_id) TextView fadeTextView;
+    @BindView(R.id.main_activity_fragment_text_view_id) TextView fragmentTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         explodeTextView.setOnClickListener(explodeOnClickListener);
         slideTextView.setOnClickListener(slideOnClickListener);
         fadeTextView.setOnClickListener(fadeOnClickListener);
+        fragmentTextView.setOnClickListener(fragmentOnClickListener);
     }
 
     private View.OnClickListener explodeOnClickListener = new View.OnClickListener() {
@@ -61,6 +63,13 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             FadeActivity.newInstance(MainActivity.this);
             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+        }
+    };
+
+    private View.OnClickListener fragmentOnClickListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            FragmentActivity.newInstance(MainActivity.this);
         }
     };
 }

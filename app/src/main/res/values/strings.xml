@@ -8,9 +8,11 @@
     <string name="animation_explode">Explode</string>
     <string name="animation_slide">Slide</string>
     <string name="animation_fade">Fade</string>
+    <string name="animation_fragment">Fragment</string>
 
     <string name="slide_right_to_left">Right to left</string>
     <string name="slide_left_to_right">Left to right</string>
     <string name="slide_top_to_bottom">Top to bottom</string>
     <string name="slide_bottom_to_top">Bottom to top</string>
+
 </resources>

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="100dp"
+    android:paddingTop="10dp"
     android:gravity="center_horizontal"
     tools:context="com.zhaolongzhong.animation.MainActivity">
 
@@ -44,4 +44,18 @@
         android:textSize="@dimen/text_medium"
         android:background="@color/colorBlue"
         android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/main_activity_fragment_text_view_id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_activity_fade_text_view_id"
+        android:layout_margin="40dp"
+
+        android:text="@string/animation_fragment"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_medium"
+        android:background="@color/colorBlue"
+        android:gravity="center"/>
+
 </RelativeLayout>
